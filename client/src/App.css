@@ -1,0 +1,14 @@
+/* App.css */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #000; /* Black background */
+  color: #fff; /* White text by default */
+  font-family: Arial, sans-serif; /* Optional: Set a universal font */
+  min-height: 100vh;
+  overflow-x: hidden; /* Prevent horizontal scrolling */
+}
+
+html {
+  height: 100%;
+}

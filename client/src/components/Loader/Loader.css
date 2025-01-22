@@ -1,0 +1,36 @@
+/* Loader Container */
+.loader-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full screen height */
+  background-color: #f9f9f9; /* Light background for contrast */
+}
+
+/* Spinner Animation */
+.spinner {
+  width: 50px;
+  height: 50px;
+  border: 5px solid #e0e0e0; /* Light gray border */
+  border-top: 5px solid #007bff; /* Blue border on top */
+  border-radius: 50%; /* Circular spinner */
+  animation: spin 1s linear infinite; /* Smooth spinning */
+}
+
+/* Loading Text */
+.loader-container p {
+  margin-top: 10px;
+  font-size: 1.2rem;
+  color: #555; /* Neutral text color */
+}
+
+/* Keyframes for spinning */
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
